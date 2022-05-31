@@ -11,3 +11,9 @@ from sklearn.metrics import mean_squared_error
 if __name__=='__main__':
     dataset = pd.read_csv('data/felicidad.csv')
     print(dataset.describe())
+
+    X=dataset[['gdp','family','lifexp','freedom', 'corruption','generosity','dystopia']]
+    y=dataset[['score']]
+
+    print(X.shape)
+    print(y.shape)

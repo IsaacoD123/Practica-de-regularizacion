@@ -40,12 +40,12 @@ if __name__=='__main__':
 
     print('='*32)
     print('Coef Lasso: ' )
-    print(modelLasso.coef)
+    print(modelLasso.coef_)
 
     print('='*32)
 
     print('Coef Ridge: ' )
-    print(modelridge.coef)
+    print(modelridge.coef_)
 
 
 

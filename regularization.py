@@ -45,7 +45,7 @@ if __name__=='__main__':
     print('='*32)
 
     print('Coef Ridge: ' )
-    print(modelridge.coef_)
+    print(modelRidge.coef_)
 
 
 
